@@ -4,6 +4,7 @@ import com.syntaxphoenix.syntaxapi.command.ArgumentMap;
 import com.syntaxphoenix.syntaxapi.command.helper.JVMArgumentHelper;
 import com.syntaxphoenix.syntaxapi.logging.ILogger;
 
+import net.sourcewriters.server.amongus4j.net.UdpServer;
 import net.sourcewriters.server.amongus4j.utils.ReflectionProvider;
 
 public final class AmongUsServer {
@@ -27,7 +28,8 @@ public final class AmongUsServer {
 	
 	public AmongUsServer(ArgumentMap args) {
 		
-		
+		UdpServer server = new UdpServer(22023);
+		server.start();
 		
 	}
 	
