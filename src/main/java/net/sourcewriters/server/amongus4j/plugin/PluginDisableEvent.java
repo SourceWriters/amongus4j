@@ -1,4 +1,4 @@
-package org.playuniverse.server.amongus4j.plugin;
+package net.sourcewriters.server.amongus4j.plugin;
 
 import org.pf4j.PluginWrapper;
 

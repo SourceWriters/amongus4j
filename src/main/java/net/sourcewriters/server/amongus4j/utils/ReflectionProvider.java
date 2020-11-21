@@ -1,4 +1,4 @@
-package org.playuniverse.server.amongus4j.utils;
+package net.sourcewriters.server.amongus4j.utils;
 
 import java.util.HashMap;
 

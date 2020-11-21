@@ -1,4 +1,4 @@
-package org.playuniverse.server.amongus4j.config;
+package net.sourcewriters.server.amongus4j.config;
 
 import java.io.File;
 import java.util.Map;

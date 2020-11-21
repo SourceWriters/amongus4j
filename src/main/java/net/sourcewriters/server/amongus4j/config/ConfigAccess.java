@@ -1,4 +1,4 @@
-package org.playuniverse.server.amongus4j.config;
+package net.sourcewriters.server.amongus4j.config;
 
 import java.lang.reflect.Constructor;
 import java.util.ArrayList;
@@ -7,12 +7,13 @@ import java.util.Optional;
 import java.util.Set;
 
 import org.pf4j.PluginWrapper;
-import org.playuniverse.server.amongus4j.AmongUsServer;
-import org.playuniverse.server.amongus4j.plugin.SafePluginManager;
-import org.playuniverse.server.amongus4j.utils.ReflectionProvider;
 
 import com.syntaxphoenix.syntaxapi.logging.ILogger;
 import com.syntaxphoenix.syntaxapi.utils.java.Arrays;
+
+import net.sourcewriters.server.amongus4j.AmongUsServer;
+import net.sourcewriters.server.amongus4j.plugin.SafePluginManager;
+import net.sourcewriters.server.amongus4j.utils.ReflectionProvider;
 
 public class ConfigAccess {
 

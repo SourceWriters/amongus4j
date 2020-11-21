@@ -1,4 +1,4 @@
-package org.playuniverse.server.amongus4j.command;
+package net.sourcewriters.server.amongus4j.command;
 
 import com.syntaxphoenix.syntaxapi.command.Arguments;
 import com.syntaxphoenix.syntaxapi.command.BaseCommand;

@@ -3,10 +3,10 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>org.playunvierse.server.amongus4j</groupId>
+	<groupId>net.sourcewriters.amongus.server</groupId>
 	<artifactId>amongus4j</artifactId>
 	<version>0.1</version>
-	<name>AmongUs for Java</name>
+	<name>AmongUs Server for Java</name>
 
 	<dependencies>
 		<dependency>

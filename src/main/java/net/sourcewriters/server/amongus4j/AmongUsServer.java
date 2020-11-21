@@ -1,10 +1,10 @@
-package org.playuniverse.server.amongus4j;
-
-import org.playuniverse.server.amongus4j.utils.ReflectionProvider;
+package net.sourcewriters.server.amongus4j;
 
 import com.syntaxphoenix.syntaxapi.command.ArgumentMap;
 import com.syntaxphoenix.syntaxapi.command.helper.JVMArgumentHelper;
 import com.syntaxphoenix.syntaxapi.logging.ILogger;
+
+import net.sourcewriters.server.amongus4j.utils.ReflectionProvider;
 
 public final class AmongUsServer {
 	

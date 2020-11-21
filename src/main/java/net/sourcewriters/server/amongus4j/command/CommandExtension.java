@@ -1,4 +1,4 @@
-package org.playuniverse.server.amongus4j.command;
+package net.sourcewriters.server.amongus4j.command;
 
 import java.util.ArrayList;
 

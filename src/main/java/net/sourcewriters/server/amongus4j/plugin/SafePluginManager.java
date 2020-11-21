@@ -1,4 +1,4 @@
-package org.playuniverse.server.amongus4j.plugin;
+package net.sourcewriters.server.amongus4j.plugin;
 
 import java.nio.file.Path;
 import java.util.List;
@@ -10,10 +10,6 @@ import org.pf4j.PluginState;
 import org.pf4j.PluginStateEvent;
 import org.pf4j.PluginStateListener;
 import org.pf4j.PluginWrapper;
-import org.playuniverse.server.amongus4j.command.CommandHandler;
-import org.playuniverse.server.amongus4j.command.PluginCommand;
-import org.playuniverse.server.amongus4j.config.Config;
-import org.playuniverse.server.amongus4j.utils.ReflectionProvider;
 
 import com.syntaxphoenix.syntaxapi.command.CommandManager;
 import com.syntaxphoenix.syntaxapi.event.Event;
@@ -24,6 +20,11 @@ import com.syntaxphoenix.syntaxapi.logging.ILogger;
 import com.syntaxphoenix.syntaxapi.service.ServiceManager;
 import com.syntaxphoenix.syntaxapi.utils.java.Collect;
 import com.syntaxphoenix.syntaxapi.utils.java.tools.Container;
+
+import net.sourcewriters.server.amongus4j.command.CommandHandler;
+import net.sourcewriters.server.amongus4j.command.PluginCommand;
+import net.sourcewriters.server.amongus4j.config.Config;
+import net.sourcewriters.server.amongus4j.utils.ReflectionProvider;
 
 public class SafePluginManager extends DefaultPluginManager implements PluginStateListener {
 
