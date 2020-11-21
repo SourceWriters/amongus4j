@@ -40,6 +40,15 @@
 			<version>2.0.3</version>
 		</dependency>
 
+		<!-- Networking -->
+
+		<dependency>
+			<groupId>io.netty</groupId>
+			<artifactId>netty-handler</artifactId>
+			<version>4.1.54.Final</version>
+		</dependency>
+
+
 		<!-- Reflections -->
 
 		<dependency>
