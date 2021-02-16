@@ -11,28 +11,27 @@ public class AmongUsPacketListener extends SimpleChannelInboundHandler<HazelPack
 
     @Override
     protected void channelRead0(ChannelHandlerContext ctx, HazelPacket packet) throws Exception {
-
         switch (packet.getType()) {
         case CONTROL:
-            handleControlPacket((ControlHazelPacket) packet);
+            handleControlPacket(ctx, (ControlHazelPacket) packet);
             break;
         case RELIABLE:
-            handleReliablePacket((ReliableHazelPacket) packet);
+            handleReliablePacket(ctx, (ReliableHazelPacket) packet);
             break;
         case UNRELIABLE:
             break;
         }
     }
 
-    private void handleControlPacket(ControlHazelPacket packet) {
+    private void handleControlPacket(ChannelHandlerContext ctx, ControlHazelPacket packet) throws Exception {
         if (packet.getControlType() == HazelControlType.ACKNOWLEDGED) {
             return;
         }
-
+        ctx.writeAndFlush(ControlHazelPacket.acknowledge(packet));
     }
 
-    private void handleReliablePacket(ReliableHazelPacket packet) {
-
+    private void handleReliablePacket(ChannelHandlerContext ctx, ReliableHazelPacket packet) throws Exception {
+        ctx.writeAndFlush(ControlHazelPacket.acknowledge(packet));
     }
 
 }
