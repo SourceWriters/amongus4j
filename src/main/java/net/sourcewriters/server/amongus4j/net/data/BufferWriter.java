@@ -64,6 +64,10 @@ public class BufferWriter {
 			value >>= 7;
 		} while (value > 0);
 	}
+	
+	public int length() {
+	    return buffer.length;
+	}
 
 	public ByteBuf asBuffer() {
 		return Unpooled.wrappedBuffer(buffer);

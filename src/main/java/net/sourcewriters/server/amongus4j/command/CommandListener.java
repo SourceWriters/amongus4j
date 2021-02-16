@@ -8,6 +8,7 @@ import com.syntaxphoenix.syntaxapi.event.EventPriority;
 
 public class CommandListener implements EventListener {
 
+	@SuppressWarnings("unused")
 	private final CommandManager commandManager;
 
 	public CommandListener(CommandManager commandManager) {
